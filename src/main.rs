@@ -40,7 +40,7 @@ fn extract_benchmarks(rust_output: &str) -> Vec<(String, f64)> {
 fn generate_readme(benchmarks: &[(String, f64)], chart_url: &str, rust_output: &str) -> String {
     format!(
         "> [!IMPORTANT]
-        > # Remember to give github actions write access through your repostiory settings, it only has read permissions by default.
+        > #### Remember to give github actions write access through your repostiory settings, it only has read permissions by default.
         # [Something] Benchmarks \n\n\
         > Note: benchmarks are ran within GitHub CI which might introduce a bit of noise, though, we can make a bold assumption that noise that will affect one will affect others. Since the benchmark only lasts a few seconds each.
         \n\n\

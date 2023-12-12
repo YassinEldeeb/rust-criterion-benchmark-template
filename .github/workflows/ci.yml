@@ -18,11 +18,6 @@ jobs:
           override: true
           version: 1.70.0
 
-      - name: Set up Go 1.19
-        uses: actions/setup-go@v2
-        with:
-          go-version: '1.19'
-
       - name: Run benchmark and update README
         run: |
           cargo run --release

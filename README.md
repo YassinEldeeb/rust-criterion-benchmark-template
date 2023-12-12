@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> # Remember to give github actions write access through your repostiory settings, it only has read permissions by default.
+> #### Remember to give github actions write access through your repostiory settings, it only has read permissions by default.
 
 
 # Something vs Something Else
